@@ -2,7 +2,7 @@ import os
 import requests
 
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
-MODEL = os.getenv("OPENLAB_MODEL", "gemma3:4b")
+MODEL = os.getenv("OPENLAB_MODEL", "gemma4:31b-cloud")
 
 
 def ask_agent(role: str, context: str) -> str:
