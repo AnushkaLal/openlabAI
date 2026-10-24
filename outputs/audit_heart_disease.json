@@ -1,0 +1,104 @@
+{
+  "rows": 303,
+  "columns": 14,
+  "duplicate_rows": 0,
+  "columns_detail": {
+    "age": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 41,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "sex": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 2,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "cp": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 5,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "trestbps": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 50,
+      "missing_percent": 0.0,
+      "possible_outliers": 9
+    },
+    "chol": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 152,
+      "missing_percent": 0.0,
+      "possible_outliers": 5
+    },
+    "fbs": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 2,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "restecg": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 3,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "thalach": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 91,
+      "missing_percent": 0.0,
+      "possible_outliers": 1
+    },
+    "exang": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 2,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "oldpeak": {
+      "dtype": "float64",
+      "missing": 0,
+      "unique_values": 40,
+      "missing_percent": 0.0,
+      "possible_outliers": 5
+    },
+    "slope": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 3,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "ca": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 4,
+      "missing_percent": 0.0,
+      "possible_outliers": 20
+    },
+    "thal": {
+      "dtype": "object",
+      "missing": 0,
+      "unique_values": 5,
+      "missing_percent": 0.0
+    },
+    "target": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 2,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    }
+  }
+}

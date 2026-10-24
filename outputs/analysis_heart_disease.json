@@ -1,0 +1,697 @@
+{
+  "numeric_columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "target"
+  ],
+  "descriptive_statistics": {
+    "age": {
+      "count": 303.0,
+      "mean": 54.59405940594059,
+      "std": 9.01637019425794,
+      "min": 29.0,
+      "25%": 48.0,
+      "50%": 56.0,
+      "75%": 61.0,
+      "max": 77.0
+    },
+    "sex": {
+      "count": 303.0,
+      "mean": 0.6765676567656765,
+      "std": 0.46855996938568734,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "cp": {
+      "count": 303.0,
+      "mean": 3.108910891089109,
+      "std": 1.0284141018485653,
+      "min": 0.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 4.0
+    },
+    "trestbps": {
+      "count": 303.0,
+      "mean": 131.78547854785478,
+      "std": 17.748337866922796,
+      "min": 94.0,
+      "25%": 120.0,
+      "50%": 130.0,
+      "75%": 140.0,
+      "max": 200.0
+    },
+    "chol": {
+      "count": 303.0,
+      "mean": 246.54785478547853,
+      "std": 52.17593315264906,
+      "min": 126.0,
+      "25%": 211.0,
+      "50%": 241.0,
+      "75%": 275.0,
+      "max": 564.0
+    },
+    "fbs": {
+      "count": 303.0,
+      "mean": 0.1485148514851485,
+      "std": 0.35619787492797644,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "restecg": {
+      "count": 303.0,
+      "mean": 0.9900990099009901,
+      "std": 0.9882928907194964,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 2.0
+    },
+    "thalach": {
+      "count": 303.0,
+      "mean": 149.1947194719472,
+      "std": 23.173368446047615,
+      "min": 71.0,
+      "25%": 132.0,
+      "50%": 152.0,
+      "75%": 165.5,
+      "max": 202.0
+    },
+    "exang": {
+      "count": 303.0,
+      "mean": 0.32673267326732675,
+      "std": 0.4697944645223165,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "oldpeak": {
+      "count": 303.0,
+      "mean": 1.0577557755775577,
+      "std": 1.1650246194814895,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.8,
+      "75%": 1.6,
+      "max": 6.2
+    },
+    "slope": {
+      "count": 303.0,
+      "mean": 1.5907590759075907,
+      "std": 0.6177670894946731,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 2.0,
+      "max": 3.0
+    },
+    "ca": {
+      "count": 303.0,
+      "mean": 0.6831683168316832,
+      "std": 0.9377727566414015,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 3.0
+    },
+    "target": {
+      "count": 303.0,
+      "mean": 0.2739273927392739,
+      "std": 0.4467099241119827,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    }
+  },
+  "correlations": [
+    {
+      "column_a": "oldpeak",
+      "column_b": "slope",
+      "pearson_r": 0.5666,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "ca",
+      "column_b": "target",
+      "pearson_r": 0.4766,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "oldpeak",
+      "column_b": "target",
+      "pearson_r": 0.4753,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "thalach",
+      "pearson_r": -0.389,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "thalach",
+      "column_b": "target",
+      "pearson_r": -0.3865,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "target",
+      "pearson_r": 0.3817,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "thalach",
+      "column_b": "exang",
+      "pearson_r": -0.3794,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "ca",
+      "pearson_r": 0.3685,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "thalach",
+      "column_b": "slope",
+      "pearson_r": -0.3613,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "exang",
+      "column_b": "target",
+      "pearson_r": 0.361,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "slope",
+      "column_b": "target",
+      "pearson_r": 0.3596,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "thalach",
+      "column_b": "oldpeak",
+      "pearson_r": -0.341,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "exang",
+      "pearson_r": 0.3373,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "oldpeak",
+      "column_b": "ca",
+      "pearson_r": 0.299,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "trestbps",
+      "pearson_r": 0.2969,
+      "p_value": 0.0,
+      "sample_size": 303
+    },
+    {
+      "column_a": "exang",
+      "column_b": "oldpeak",
+      "pearson_r": 0.2782,
+      "p_value": 1e-06,
+      "sample_size": 303
+    },
+    {
+      "column_a": "thalach",
+      "column_b": "ca",
+      "pearson_r": -0.2707,
+      "p_value": 2e-06,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "thalach",
+      "pearson_r": -0.2599,
+      "p_value": 5e-06,
+      "sample_size": 303
+    },
+    {
+      "column_a": "exang",
+      "column_b": "slope",
+      "pearson_r": 0.2455,
+      "p_value": 1.5e-05,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "oldpeak",
+      "pearson_r": 0.2022,
+      "p_value": 0.000399,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "chol",
+      "pearson_r": -0.2017,
+      "p_value": 0.000411,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "target",
+      "pearson_r": 0.1987,
+      "p_value": 0.000503,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "fbs",
+      "pearson_r": 0.1968,
+      "p_value": 0.000572,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "oldpeak",
+      "pearson_r": 0.1907,
+      "p_value": 0.000848,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "ca",
+      "pearson_r": 0.1904,
+      "p_value": 0.000865,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "chol",
+      "pearson_r": 0.1879,
+      "p_value": 0.001012,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "slope",
+      "pearson_r": 0.1851,
+      "p_value": 0.001213,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "oldpeak",
+      "pearson_r": 0.1796,
+      "p_value": 0.001693,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "target",
+      "pearson_r": 0.1716,
+      "p_value": 0.002733,
+      "sample_size": 303
+    },
+    {
+      "column_a": "fbs",
+      "column_b": "ca",
+      "pearson_r": 0.1711,
+      "p_value": 0.002812,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "restecg",
+      "pearson_r": 0.1675,
+      "p_value": 0.003462,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "slope",
+      "pearson_r": 0.1514,
+      "p_value": 0.0083,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "restecg",
+      "pearson_r": 0.146,
+      "p_value": 0.010965,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "fbs",
+      "pearson_r": 0.1446,
+      "p_value": 0.011728,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "restecg",
+      "pearson_r": 0.1417,
+      "p_value": 0.013589,
+      "sample_size": 303
+    },
+    {
+      "column_a": "restecg",
+      "column_b": "slope",
+      "pearson_r": 0.1398,
+      "p_value": 0.014892,
+      "sample_size": 303
+    },
+    {
+      "column_a": "exang",
+      "column_b": "ca",
+      "pearson_r": 0.138,
+      "p_value": 0.016196,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "exang",
+      "pearson_r": 0.1357,
+      "p_value": 0.01813,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "target",
+      "pearson_r": 0.1294,
+      "p_value": 0.024295,
+      "sample_size": 303
+    },
+    {
+      "column_a": "restecg",
+      "column_b": "target",
+      "pearson_r": 0.1262,
+      "p_value": 0.028098,
+      "sample_size": 303
+    },
+    {
+      "column_a": "restecg",
+      "column_b": "ca",
+      "pearson_r": 0.1217,
+      "p_value": 0.034285,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "oldpeak",
+      "pearson_r": 0.1174,
+      "p_value": 0.041071,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "chol",
+      "pearson_r": 0.1173,
+      "p_value": 0.041262,
+      "sample_size": 303
+    },
+    {
+      "column_a": "restecg",
+      "column_b": "oldpeak",
+      "pearson_r": 0.1155,
+      "p_value": 0.044483,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "chol",
+      "pearson_r": 0.1151,
+      "p_value": 0.045324,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "slope",
+      "pearson_r": 0.114,
+      "p_value": 0.047454,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "ca",
+      "pearson_r": 0.1095,
+      "p_value": 0.056919,
+      "sample_size": 303
+    },
+    {
+      "column_a": "slope",
+      "column_b": "ca",
+      "pearson_r": 0.1012,
+      "p_value": 0.078485,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "ca",
+      "pearson_r": 0.099,
+      "p_value": 0.085424,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "ca",
+      "pearson_r": 0.0976,
+      "p_value": 0.089922,
+      "sample_size": 303
+    },
+    {
+      "column_a": "fbs",
+      "column_b": "target",
+      "pearson_r": 0.0973,
+      "p_value": 0.091055,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "exang",
+      "pearson_r": 0.0947,
+      "p_value": 0.099776,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "sex",
+      "pearson_r": -0.0907,
+      "p_value": 0.114941,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "fbs",
+      "pearson_r": -0.0895,
+      "p_value": 0.120051,
+      "sample_size": 303
+    },
+    {
+      "column_a": "restecg",
+      "column_b": "exang",
+      "pearson_r": 0.0854,
+      "p_value": 0.137857,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "target",
+      "pearson_r": 0.0833,
+      "p_value": 0.1479,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "restecg",
+      "pearson_r": 0.076,
+      "p_value": 0.187068,
+      "sample_size": 303
+    },
+    {
+      "column_a": "age",
+      "column_b": "cp",
+      "pearson_r": 0.0751,
+      "p_value": 0.192141,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "thalach",
+      "pearson_r": -0.0701,
+      "p_value": 0.223628,
+      "sample_size": 303
+    },
+    {
+      "column_a": "restecg",
+      "column_b": "thalach",
+      "pearson_r": -0.0657,
+      "p_value": 0.254222,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "exang",
+      "pearson_r": 0.0644,
+      "p_value": 0.263554,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "trestbps",
+      "pearson_r": -0.0641,
+      "p_value": 0.265892,
+      "sample_size": 303
+    },
+    {
+      "column_a": "trestbps",
+      "column_b": "thalach",
+      "pearson_r": -0.0625,
+      "p_value": 0.278005,
+      "sample_size": 303
+    },
+    {
+      "column_a": "cp",
+      "column_b": "trestbps",
+      "pearson_r": -0.0618,
+      "p_value": 0.283205,
+      "sample_size": 303
+    },
+    {
+      "column_a": "fbs",
+      "column_b": "restecg",
+      "pearson_r": 0.0606,
+      "p_value": 0.292819,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "exang",
+      "pearson_r": 0.0521,
+      "p_value": 0.366013,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "fbs",
+      "pearson_r": 0.0507,
+      "p_value": 0.379349,
+      "sample_size": 303
+    },
+    {
+      "column_a": "fbs",
+      "column_b": "slope",
+      "pearson_r": 0.0364,
+      "p_value": 0.528437,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "restecg",
+      "pearson_r": 0.036,
+      "p_value": 0.532851,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "slope",
+      "pearson_r": 0.0331,
+      "p_value": 0.565887,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "oldpeak",
+      "pearson_r": 0.0312,
+      "p_value": 0.588481,
+      "sample_size": 303
+    },
+    {
+      "column_a": "fbs",
+      "column_b": "thalach",
+      "pearson_r": -0.0276,
+      "p_value": 0.632462,
+      "sample_size": 303
+    },
+    {
+      "column_a": "fbs",
+      "column_b": "oldpeak",
+      "pearson_r": 0.0255,
+      "p_value": 0.657883,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "thalach",
+      "pearson_r": 0.0225,
+      "p_value": 0.696336,
+      "sample_size": 303
+    },
+    {
+      "column_a": "fbs",
+      "column_b": "exang",
+      "pearson_r": -0.0139,
+      "p_value": 0.809444,
+      "sample_size": 303
+    },
+    {
+      "column_a": "sex",
+      "column_b": "cp",
+      "pearson_r": 0.0115,
+      "p_value": 0.842008,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "slope",
+      "pearson_r": 0.0057,
+      "p_value": 0.920654,
+      "sample_size": 303
+    },
+    {
+      "column_a": "chol",
+      "column_b": "fbs",
+      "pearson_r": -0.0037,
+      "p_value": 0.949138,
+      "sample_size": 303
+    }
+  ]
+}
