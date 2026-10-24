@@ -23,13 +23,6 @@ htmlcov/
 .mypy_cache/
 .ruff_cache/
 
-# Generated outputs
-outputs/*
-!outputs/.gitkeep
-
-# Local datasets and downloaded data
-data/*
-!data/.gitkeep
 
 # Logs
 *.log
