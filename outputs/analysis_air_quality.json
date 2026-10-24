@@ -1,0 +1,94 @@
+{
+  "numeric_columns": [
+    "temperature",
+    "humidity",
+    "pm25",
+    "rainfall"
+  ],
+  "descriptive_statistics": {
+    "temperature": {
+      "count": 12.0,
+      "mean": 21.833333333333332,
+      "std": 1.7494587907710375,
+      "min": 19.0,
+      "25%": 20.75,
+      "50%": 22.0,
+      "75%": 23.0,
+      "max": 25.0
+    },
+    "humidity": {
+      "count": 12.0,
+      "mean": 55.75,
+      "std": 10.880549785574424,
+      "min": 40.0,
+      "25%": 47.25,
+      "50%": 56.5,
+      "75%": 63.25,
+      "max": 72.0
+    },
+    "pm25": {
+      "count": 12.0,
+      "mean": 72.66666666666667,
+      "std": 11.5075732639094,
+      "min": 55.0,
+      "25%": 64.25,
+      "50%": 72.0,
+      "75%": 80.5,
+      "max": 91.0
+    },
+    "rainfall": {
+      "count": 12.0,
+      "mean": 1.75,
+      "std": 2.220769727328383,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.5,
+      "75%": 3.25,
+      "max": 6.0
+    }
+  },
+  "correlations": [
+    {
+      "column_a": "humidity",
+      "column_b": "pm25",
+      "pearson_r": -0.9795,
+      "p_value": 0.0,
+      "sample_size": 12
+    },
+    {
+      "column_a": "temperature",
+      "column_b": "pm25",
+      "pearson_r": 0.9453,
+      "p_value": 4e-06,
+      "sample_size": 12
+    },
+    {
+      "column_a": "humidity",
+      "column_b": "rainfall",
+      "pearson_r": 0.9039,
+      "p_value": 5.5e-05,
+      "sample_size": 12
+    },
+    {
+      "column_a": "pm25",
+      "column_b": "rainfall",
+      "pearson_r": -0.9036,
+      "p_value": 5.6e-05,
+      "sample_size": 12
+    },
+    {
+      "column_a": "temperature",
+      "column_b": "humidity",
+      "pearson_r": -0.8907,
+      "p_value": 0.000102,
+      "sample_size": 12
+    },
+    {
+      "column_a": "temperature",
+      "column_b": "rainfall",
+      "pearson_r": -0.8073,
+      "p_value": 0.0015,
+      "sample_size": 12
+    }
+  ]
+}

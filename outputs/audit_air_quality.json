@@ -1,0 +1,42 @@
+{
+  "rows": 12,
+  "columns": 5,
+  "duplicate_rows": 0,
+  "columns_detail": {
+    "date": {
+      "dtype": "object",
+      "missing": 0,
+      "unique_values": 12,
+      "missing_percent": 0.0,
+      "high_cardinality": true
+    },
+    "temperature": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 7,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "humidity": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 12,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "pm25": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 12,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    },
+    "rainfall": {
+      "dtype": "int64",
+      "missing": 0,
+      "unique_values": 7,
+      "missing_percent": 0.0,
+      "possible_outliers": 0
+    }
+  }
+}
